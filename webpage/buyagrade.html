@@ -13,27 +13,34 @@
 		</p>
 		
 		<hr />
-		
+		<form action="http://localhost/LAB4/lab-4-jamalav/webpage/sucker.php" method="get">
 		<h2>Give Us Your Money</h2>
 		<dl>
 			<dt>Name</dt>
 			<dd>
-				???
+				<input type="text" name="name" />
 			</dd>
 			
 			<dt>Section</dt>
 			<dd>
-				???
+				<select name="section">
+					<option value="001">001</option>
+					<option value="002">002</option>
+					<option value="003">003</option>
+					<option value="004">004</option>
+				</select>
 			</dd>
 			
 			<dt>Credit Card</dt>
 			<dd>
-				???
+				<input type="text" name="Creditnumber" />
 			</dd>
+			<dd><input type="radio" name="CreditCard" value="Visa" />Visa
+				<input type="radio" name="CreditCard" value="MasterCard" />Mastercard</dd>
 		</dl>
 		
 		<div>
-			I am a giant sucker.
-		</div>
+			<input type="submit" name="I am a giant sucker." value="I am a giant sucker." /> 
+		</div></form>
 	</body>
 </html>
